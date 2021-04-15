@@ -14,4 +14,5 @@ asa:
     secret: Abc1234*
   server:
     sbo: http://localhost:25002/ASASbo/
-  report: C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/ASA_Files/Jasper
+  report: 
+    path: C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/ASA_Files/Jasper
