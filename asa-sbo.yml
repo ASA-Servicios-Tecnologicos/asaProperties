@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: asa-sbo
+  jackson:
+    default-property-inclusion: NON_NULL 
+server:
+  port: 25002
+  servlet:
+    context-path: /ASASbo
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+      

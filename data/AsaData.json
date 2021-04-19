@@ -1,0 +1,6 @@
+{
+    "errorDescription": "422 : [<LinkedHashMap><timestamp>2021-04-18T07:00:44.871</timestamp><path>/ASAApi/resources/AsaFindItems</path><status>UNPROCESSABLE_ENTITY</status><message>ERROR: function asa_get_specialprice(unknown, integer, unknown, integer) does not exist\n  Hint: No function matches the given name and argument types. You might need to add explicit type casts.\n  Position: 8</message><log>22747</log></LinkedHashMap>]",
+    "value":{
+	"aaa":"test"
+	}
+}

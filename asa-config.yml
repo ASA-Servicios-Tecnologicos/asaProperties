@@ -1,4 +1,6 @@
 spring:
+  resources:
+    static-locations: file:/Users/cesaralvarez/Documents/develop/ASASTEC/asaProperties/
   jpa:
     hibernate:
       ddl-auto: none
@@ -9,6 +11,8 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/ASA_DEMO
 asa:
+  authenticate:
+    ignore-antMatchers: /*.png, /*.jpg
   jwt:
     expiration: 600000000
     secret: Abc1234*

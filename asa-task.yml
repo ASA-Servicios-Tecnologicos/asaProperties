@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: asa-task
+server:
+  port: 25010
+  servlet:
+    context-path: /ASATask
